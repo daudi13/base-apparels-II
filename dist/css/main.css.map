@@ -4,7 +4,8 @@
     "sources": [
         "../../scss/main.scss",
         "../../scss/mixins.scss",
-        "../../scss/_variables.scss"
+        "../../scss/_variables.scss",
+        "../../scss/_base.scss"
     ],
     "names": [],
     "file": "main.css"
