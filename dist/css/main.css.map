@@ -3,7 +3,8 @@
     "mappings": "",
     "sources": [
         "../../scss/main.scss",
-        "../../scss/mixins.scss"
+        "../../scss/mixins.scss",
+        "../../scss/_variables.scss"
     ],
     "names": [],
     "file": "main.css"
