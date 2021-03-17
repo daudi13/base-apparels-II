@@ -27,5 +27,29 @@ body {
   min-height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.7rem;
+  background: #fff;
+  background: linear-gradient(135deg, white, #fff5f5);
+  overflow: hidden;
+}
+
+@media (min-width: 960px) {
+  body {
+    background: url("../images/bg-pattern-desktop.svg");
+    background: linear-gradient(135deg, white, #fff5f5);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+body .main-container {
+  max-width: 40.5rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 960px) {
+  body .main-container {
+    max-width: initial;
+  }
 }
 /*# sourceMappingURL=main.css.map */
