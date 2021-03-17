@@ -10,4 +10,22 @@
 html {
   font-size: 62.5%;
 }
+
+@media (max-width: 960px) {
+  html {
+    font-size: 56.2%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7rem;
+}
 /*# sourceMappingURL=main.css.map */

@@ -11,11 +11,11 @@
 html {
     font-size: 62.5%;
 
-    @include repond(sm-laptop) {
-        font-size: 56.25%;
+    @include respond(tablet) {
+        font-size: 56.2%;
     }
 
-    @include repond(tablet) {
+    @include respond(phone) {
         font-size: 50%;
     }
 }
@@ -23,8 +23,7 @@ html {
 body {
     min-height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
-    background: #fff;
-    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-
-    
+    font-size: 1.7rem;
+    // background-color: #fff;
+    // background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
