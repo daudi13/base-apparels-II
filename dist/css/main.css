@@ -29,7 +29,6 @@ body {
   font-size: 1.7rem;
   background: #fff;
   background: linear-gradient(135deg, white, #fff5f5);
-  overflow: hidden;
 }
 
 @media (min-width: 960px) {
@@ -38,6 +37,7 @@ body {
     background: linear-gradient(135deg, white, #fff5f5);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
   }
 }
 
@@ -51,5 +51,47 @@ body .main-container {
   body .main-container {
     max-width: initial;
   }
+}
+
+body .main-container header {
+  padding: 3rem;
+}
+
+body .main-container header img {
+  width: auto;
+  height: 2.1rem;
+}
+
+@media (min-width: 960px) {
+  body .main-container header img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  body .main-container .main-content {
+    max-width: 113rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 960px) {
+  body .main-container .main-content .hero {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+body .main-container .main-content .hero_container {
+  padding: 0;
+}
+
+body .main-container .main-content .hero_container img {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=main.css.map */
