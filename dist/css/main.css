@@ -99,4 +99,26 @@ body .main-container .main-content .word-container {
   margin-top: 6.4rem;
   text-align: center;
 }
+
+body .main-container .main-content .word-container__title {
+  margin-bottom: 1rem;
+}
+
+body .main-container .main-content .word-container__title .title__intro {
+  font-size: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: #ce9797;
+  line-height: 40px;
+}
+
+body .main-container .main-content .word-container__title .title__outro {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 40px;
+}
 /*# sourceMappingURL=main.css.map */

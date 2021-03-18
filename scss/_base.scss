@@ -85,6 +85,28 @@ body {
             .word-container {
                 margin-top: 6.4rem;
                 text-align: center;
+
+                &__title {
+
+                    margin-bottom: 1rem;
+                    .title__intro {
+                        font-size: 46px;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        letter-spacing: 1rem;
+                        color: $desaturated-red;
+                        line-height: 40px;
+                    }
+
+                    .title__outro {
+                        font-size: 36px;
+                        font-weight: 600;
+                        letter-spacing: 10px;
+                        text-transform: uppercase;
+                        color: #000;
+                        line-height: 40px;
+                    }
+                }
             }
         }
     }
