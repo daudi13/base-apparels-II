@@ -42,9 +42,8 @@ body {
 }
 
 body .main-container {
-  max-width: 40.5rem;
+  min-width: 40.5rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
 @media (min-width: 960px) {
@@ -98,6 +97,7 @@ body .main-container .main-content .hero_container img {
 body .main-container .main-content .word-container {
   margin-top: 6.4rem;
   text-align: center;
+  padding: 0 1.5rem;
 }
 
 body .main-container .main-content .word-container__title {
