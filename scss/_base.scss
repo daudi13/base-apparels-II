@@ -107,6 +107,13 @@ body {
                         line-height: 40px;
                     }
                 }
+
+            &__desc {
+                color: $desaturated-red;
+                font-size: 1.6rem;
+                line-height: 20px;
+                margin-bottom: 2rem;
+            }
             }
         }
     }

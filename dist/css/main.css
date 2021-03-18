@@ -121,4 +121,11 @@ body .main-container .main-content .word-container__title .title__outro {
   color: #000;
   line-height: 40px;
 }
+
+body .main-container .main-content .word-container__desc {
+  color: #ce9797;
+  font-size: 1.6rem;
+  line-height: 20px;
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
