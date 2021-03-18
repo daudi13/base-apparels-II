@@ -84,7 +84,7 @@ body {
             .word-container {
                 margin-top: 6.4rem;
                 text-align: center;
-                padding: 0 1.5rem;
+                padding: 0 6rem;
 
                 &__title {
 
@@ -108,12 +108,35 @@ body {
                     }
                 }
 
-            &__desc {
-                color: $desaturated-red;
-                font-size: 1.6rem;
-                line-height: 20px;
-                margin-bottom: 2rem;
-            }
+                &__desc {
+                    color: $desaturated-red;
+                    font-size: 1.6rem;
+                    line-height: 20px;
+                    margin-bottom: 2rem;
+                }
+
+                form {
+
+                    color: $desaturated-red;
+
+                    input {
+                        min-width: 100%;
+                        padding: 9px 1.7rem;
+                        border: 1px solid $desaturated-red;
+                        outline: none;
+                        border-radius: 20px;
+                    }
+
+                    button {
+                        position: absolute;
+                        right: 30px;
+                        width: 50px;
+                        padding: 6px 0px 6px 4px;
+                        border: 0;
+                        background: linear-gradient(135deg, $desaturated-red, $soft-red);
+                        border-radius: 20px;
+                    }
+                }
             }
         }
     }

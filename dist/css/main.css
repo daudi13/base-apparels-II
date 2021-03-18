@@ -97,7 +97,7 @@ body .main-container .main-content .hero_container img {
 body .main-container .main-content .word-container {
   margin-top: 6.4rem;
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 0 6rem;
 }
 
 body .main-container .main-content .word-container__title {
@@ -127,5 +127,27 @@ body .main-container .main-content .word-container__desc {
   font-size: 1.6rem;
   line-height: 20px;
   margin-bottom: 2rem;
+}
+
+body .main-container .main-content .word-container form {
+  color: #ce9797;
+}
+
+body .main-container .main-content .word-container form input {
+  min-width: 100%;
+  padding: 9px 1.7rem;
+  border: 1px solid #ce9797;
+  outline: none;
+  border-radius: 20px;
+}
+
+body .main-container .main-content .word-container form button {
+  position: absolute;
+  right: 30px;
+  width: 50px;
+  padding: 6px 0px 6px 4px;
+  border: 0;
+  background: linear-gradient(135deg, #ce9797, #f96262);
+  border-radius: 20px;
 }
 /*# sourceMappingURL=main.css.map */
