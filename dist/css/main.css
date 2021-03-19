@@ -70,16 +70,16 @@ body .main-container header img {
 
 @media (min-width: 960px) {
   body .main-container header img {
-    height: 5%;
+    height: 4%;
     position: absolute;
     top: 6rem;
-    left: 30%;
+    left: 25%;
   }
 }
 
 @media (min-width: 960px) {
   body .main-container .main-content {
-    max-width: 113rem;
+    max-width: 143rem;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -87,7 +87,6 @@ body .main-container header img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    position: relative;
   }
 }
 
@@ -112,8 +111,14 @@ body .main-container .main-content .word-container {
   text-align: center;
   padding: 0 6rem;
   max-width: 46.5rem;
-  position: relative;
   margin: 6.5rem auto 0 auto;
+}
+
+@media (min-width: 960px) {
+  body .main-container .main-content .word-container {
+    text-align: justify;
+    position: relative;
+  }
 }
 
 body .main-container .main-content .word-container__title {

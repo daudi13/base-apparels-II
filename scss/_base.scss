@@ -56,10 +56,10 @@ body {
                 height: 2.1rem;
 
                 @include respond(tablet-II) {
-                    height: 5%;
+                    height: 4%;
                     position: absolute;
                     top: 6rem;
-                    left: 30%;
+                    left: 25%;
                 }
             }
         }
@@ -67,11 +67,11 @@ body {
         .main-content {
 
             @include respond(tablet-II) {
-                max-width: 113rem;
+                max-width: 143rem;
                 margin: 0 auto;
                 display: flex;
                 align-items: center;
-                position: relative;
+                
             }
 
             .hero {
@@ -93,8 +93,13 @@ body {
                 text-align: center;
                 padding: 0 6rem;
                 max-width: 46.5rem;
-                position: relative;
+                
                 margin: 6.5rem auto 0 auto;
+
+                @include respond(tablet-II) {
+                    text-align: justify;
+                    position: relative;
+                }
 
                 &__title {
 
@@ -150,6 +155,4 @@ body {
             }
         }
     }
-
-    
 }
