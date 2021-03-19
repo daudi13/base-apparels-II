@@ -70,10 +70,7 @@ body .main-container header img {
 
 @media (min-width: 960px) {
   body .main-container header img {
-    height: 4%;
-    position: absolute;
-    top: 6rem;
-    left: 25%;
+    display: none;
   }
 }
 
@@ -118,6 +115,7 @@ body .main-container .main-content .word-container {
   body .main-container .main-content .word-container {
     text-align: justify;
     position: relative;
+    margin-top: 0 !important;
   }
 }
 

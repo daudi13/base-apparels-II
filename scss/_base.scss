@@ -56,10 +56,7 @@ body {
                 height: 2.1rem;
 
                 @include respond(tablet-II) {
-                    height: 4%;
-                    position: absolute;
-                    top: 6rem;
-                    left: 25%;
+                    display: none;
                 }
             }
         }
@@ -93,12 +90,14 @@ body {
                 text-align: center;
                 padding: 0 6rem;
                 max-width: 46.5rem;
-                
                 margin: 6.5rem auto 0 auto;
+
+                
 
                 @include respond(tablet-II) {
                     text-align: justify;
                     position: relative;
+                    margin-top: 0!important;
                 }
 
                 &__title {
