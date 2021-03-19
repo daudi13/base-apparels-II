@@ -9,6 +9,8 @@
 
 html {
   font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media (max-width: 960px) {
@@ -26,7 +28,7 @@ html {
 body {
   min-height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   background: #fff;
   background: linear-gradient(135deg, white, #fff5f5);
 }
@@ -37,12 +39,11 @@ body {
     background: linear-gradient(135deg, white, #fff5f5);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
   }
 }
 
 body .main-container {
-  min-width: 40.5rem;
+  max-width: 40.5rem;
   margin: 0 auto;
 }
 
@@ -56,6 +57,12 @@ body .main-container header {
   padding: 3rem;
 }
 
+@media (min-width: 960px) {
+  body .main-container header {
+    padding: 0;
+  }
+}
+
 body .main-container header img {
   width: auto;
   height: 2.1rem;
@@ -63,7 +70,10 @@ body .main-container header img {
 
 @media (min-width: 960px) {
   body .main-container header img {
-    height: 100%;
+    height: 5%;
+    position: absolute;
+    top: 6rem;
+    left: 30%;
   }
 }
 
@@ -74,6 +84,10 @@ body .main-container header img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
   }
 }
 
@@ -95,9 +109,11 @@ body .main-container .main-content .hero_container img {
 }
 
 body .main-container .main-content .word-container {
-  margin-top: 6.4rem;
   text-align: center;
   padding: 0 6rem;
+  max-width: 46.5rem;
+  position: relative;
+  margin: 6.5rem auto 0 auto;
 }
 
 body .main-container .main-content .word-container__title {
