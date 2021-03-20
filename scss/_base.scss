@@ -93,7 +93,9 @@ body {
 
                 @include respond(tablet-II) {
                     margin-top: 0;
-                    min-height: 800px;
+                    max-height: 900px;
+                    width: 610;
+                    
                 }
 
                 .logo__desktop {
@@ -102,7 +104,7 @@ body {
                     }
 
                     width: 15rem;
-                    margin-bottom: 26rem;
+                    margin-bottom: 20rem;
                 }
 
                 
@@ -123,6 +125,10 @@ body {
                         letter-spacing: 1rem;
                         color: $desaturated-red;
                         line-height: 40px;
+
+                        @include respond(tablet-II) {
+                            font-size: 65px;
+                        }
                     }
 
                     .title__outro {
@@ -132,6 +138,11 @@ body {
                         text-transform: uppercase;
                         color: #000;
                         line-height: 40px;
+
+                        @include respond(tablet-II) {
+                            font-size: 45px;
+                            line-height: 60px;
+                        }
                     }
                 }
 

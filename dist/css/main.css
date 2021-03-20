@@ -114,13 +114,14 @@ body .main-container .main-content .word-container {
 @media (min-width: 960px) {
   body .main-container .main-content .word-container {
     margin-top: 0;
-    min-height: 800px;
+    max-height: 900px;
+    width: 610;
   }
 }
 
 body .main-container .main-content .word-container .logo__desktop {
   width: 15rem;
-  margin-bottom: 26rem;
+  margin-bottom: 20rem;
 }
 
 @media (max-width: 959px) {
@@ -150,6 +151,12 @@ body .main-container .main-content .word-container__title .title__intro {
   line-height: 40px;
 }
 
+@media (min-width: 960px) {
+  body .main-container .main-content .word-container__title .title__intro {
+    font-size: 65px;
+  }
+}
+
 body .main-container .main-content .word-container__title .title__outro {
   font-size: 36px;
   font-weight: 600;
@@ -157,6 +164,13 @@ body .main-container .main-content .word-container__title .title__outro {
   text-transform: uppercase;
   color: #000;
   line-height: 40px;
+}
+
+@media (min-width: 960px) {
+  body .main-container .main-content .word-container__title .title__outro {
+    font-size: 45px;
+    line-height: 60px;
+  }
 }
 
 body .main-container .main-content .word-container__desc {
