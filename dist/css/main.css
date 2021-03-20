@@ -186,9 +186,19 @@ body .main-container .main-content .word-container form {
   color: #ce9797;
 }
 
+body .main-container .main-content .word-container form .form__field {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 body .main-container .main-content .word-container form input {
-  min-width: 100%;
-  padding: 9px 1.7rem;
+  width: 100%;
+  height: 5.6rem;
+  padding-left: 2rem;
+  padding-right: 6rem;
   border: 1px solid #ce9797;
   outline: none;
   border-radius: 20px;
