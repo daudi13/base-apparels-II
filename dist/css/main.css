@@ -116,6 +116,7 @@ body .main-container .main-content .word-container {
     margin-top: 0;
     max-height: 900px;
     width: 610;
+    margin-bottom: 12rem;
   }
 }
 
@@ -154,6 +155,7 @@ body .main-container .main-content .word-container__title .title__intro {
 @media (min-width: 960px) {
   body .main-container .main-content .word-container__title .title__intro {
     font-size: 65px;
+    line-height: 55px;
   }
 }
 
@@ -169,7 +171,7 @@ body .main-container .main-content .word-container__title .title__outro {
 @media (min-width: 960px) {
   body .main-container .main-content .word-container__title .title__outro {
     font-size: 45px;
-    line-height: 60px;
+    line-height: 55px;
   }
 }
 

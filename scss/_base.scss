@@ -95,6 +95,7 @@ body {
                     margin-top: 0;
                     max-height: 900px;
                     width: 610;
+                    margin-bottom: 12rem;
                     
                 }
 
@@ -128,6 +129,7 @@ body {
 
                         @include respond(tablet-II) {
                             font-size: 65px;
+                            line-height: 55px;
                         }
                     }
 
@@ -141,7 +143,7 @@ body {
 
                         @include respond(tablet-II) {
                             font-size: 45px;
-                            line-height: 60px;
+                            line-height: 55px;
                         }
                     }
                 }
