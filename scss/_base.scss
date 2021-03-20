@@ -169,12 +169,20 @@ body {
 
                     button {
                         position: absolute;
-                        right: 30px;
-                        width: 50px;
+                        right: -2px;
+                        width: 6.5rem;
                         padding: 6px 0px 6px 4px;
                         border: 0;
                         background: linear-gradient(135deg, $desaturated-red, $soft-red);
                         border-radius: 20px;
+
+                        @include respond(tablet) {
+                            width: 9.5rem;
+                        }
+
+                        height: 5.6rem;
+                        cursor: pointer;
+                        transition: transform 300ms ease-out
                     }
                 }
             }

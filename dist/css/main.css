@@ -196,11 +196,23 @@ body .main-container .main-content .word-container form input {
 
 body .main-container .main-content .word-container form button {
   position: absolute;
-  right: 30px;
-  width: 50px;
+  right: -2px;
+  width: 6.5rem;
   padding: 6px 0px 6px 4px;
   border: 0;
   background: linear-gradient(135deg, #ce9797, #f96262);
   border-radius: 20px;
+  height: 5.6rem;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 300ms ease-out;
+  transition: -webkit-transform 300ms ease-out;
+  transition: transform 300ms ease-out;
+  transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+}
+
+@media (max-width: 959px) {
+  body .main-container .main-content .word-container form button {
+    width: 9.5rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
