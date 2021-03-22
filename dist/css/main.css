@@ -204,6 +204,12 @@ body .main-container .main-content .word-container form input {
   border-radius: 20px;
 }
 
+@media (min-width: 960px) {
+  body .main-container .main-content .word-container form input {
+    width: 30rem;
+  }
+}
+
 body .main-container .main-content .word-container form button {
   position: absolute;
   right: -2px;

@@ -173,6 +173,10 @@ body {
                         border: 1px solid $desaturated-red;
                         outline: none;
                         border-radius: 20px;
+
+                        @include respond(tablet-II) {
+                            width: 30rem;
+                        }
                     }
 
 
