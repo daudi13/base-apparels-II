@@ -186,7 +186,7 @@ body {
                         background: linear-gradient(135deg, $desaturated-red, $soft-red);
                         border-radius: 20px;
 
-                        @include respond(tablet) {
+                        @include respond(tablet-II) {
                             width: 9.5rem;
                         }
 
