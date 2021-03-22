@@ -204,6 +204,34 @@ body .main-container .main-content .word-container form input {
   border-radius: 20px;
 }
 
+body .main-container .main-content .word-container form input::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f96262;
+}
+
+body .main-container .main-content .word-container form input:-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f96262;
+}
+
+body .main-container .main-content .word-container form input::-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f96262;
+}
+
+body .main-container .main-content .word-container form input::placeholder {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f96262;
+}
+
 @media (min-width: 960px) {
   body .main-container .main-content .word-container form input {
     width: 30rem;
