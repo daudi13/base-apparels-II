@@ -212,5 +212,14 @@ body {
 
     footer {
         margin-top: 5rem;
+        position: absolute;
+        bottom: 0;
+        top: 100rem;
+        left: 0;
+        right: 0;
+
+        @include respond(tablet-II) {
+            top: 80rem;
+        }
     }
 }
